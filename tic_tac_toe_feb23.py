@@ -16,6 +16,7 @@ def main():
     while game_not_finished:
         counter += 1
         if counter > 9:
+            print("That's a draw folks. Feel free to play again!")
             break
         try:
             if (counter % 2) != 0:
